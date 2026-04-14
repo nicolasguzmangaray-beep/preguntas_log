@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustento Técnico - Empresa I.B. & Rocha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        .answer-badge {
+            background: linear-gradient(90deg, #10b981, #059669);
+        }
+
+        .justification-box {
+            border-left: 4px solid #3b82f6;
+            background-color: #f1f5f9;
+        }
+
+        .question-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .question-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navegación -->
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 w-full z-50 border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="bg-slate-900 text-white font-bold px-2 py-1 rounded text-sm">I.B.</span>
+                <h1 class="font-extrabold tracking-tight text-slate-900">REPORTE TÉCNICO <span class="text-blue-600">ROCHA</span></h1>
+            </div>
+            <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Auditoría Administrativa</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-blue-400 font-bold uppercase tracking-widest text-sm mb-4">Justificación por Pregunta</h2>
+            <h1 class="text-4xl md:text-5xl font-black mb-6 italic">Análisis Estratégico de la Empresa I.B.</h1>
+            <p class="text-slate-400 text-lg leading-relaxed">
+                A continuación se presenta el desglose técnico de la evaluación, vinculando cada respuesta con la normativa legal, la administración financiera y los modelos de cadena de suministro aplicados al caso real.
+            </p>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="max-w-4xl mx-auto py-16 px-6 space-y-12">
+
+        <!-- Pregunta 1 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">01</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Qué mide el indicador de Razón Corriente en un análisis financiero?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Liquidez a corto plazo
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Aunque Rocha se enfoca en logística, la administración financiera exige medir la capacidad de la empresa para cubrir sus deudas inmediatas. La razón corriente es el indicador base de liquidez para asegurar que el departamento de compras tenga flujo de caja para pagar a proveedores."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 2 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">02</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">En logística, ¿qué significa el término "Just in Time" (JIT)?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Reducir inventarios al mínimo
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "El modelo JIT busca que los materiales lleguen justo cuando se necesitan. Según Rocha, esto reduce costos de almacenamiento y evita que la empresa I.B. tenga capital atrapado en mercancía que no está rotando."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 3 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">03</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Cuál es la principal función del Estado de Resultados?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Mostrar la utilidad o pérdida
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Es el documento financiero que le dice a la gerencia si la operación (incluyendo las compras de insumos) está siendo rentable o si los costos están devorando los ingresos de la empresa."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 4 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">04</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Qué herramienta se usa para analizar la cultura y el comportamiento dentro de una empresa?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Diagnóstico Organizacional
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Para solucionar problemas como el de I.B. (donde todos compran sin orden), se requiere un diagnóstico que evalúe cómo se comportan las personas y cómo se toman las decisiones internamente."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 5 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">05</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">En el análisis técnico de mercados, ¿para qué sirve el indicador MACD?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Identificar cambios de tendencia
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Como administrador, el uso de indicadores como el MACD ayuda a entender cuándo el mercado de materias primas o divisas está cambiando de dirección, permitiendo realizar compras preventivas o especulativas según Rocha."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 6 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">06</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Qué representa el "Apalancamiento Financiero"?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Uso de deuda para financiar activos
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Es la estrategia de usar dinero prestado para potenciar la operación. En logística, esto se ve cuando se negocian plazos de pago con proveedores para financiarse con el crédito comercial."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 7 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">07</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Cuál es un objetivo clave de la Gestión de Recursos Humanos (RR.HH.)?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Fidelizar el talento humano
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "En una empresa como I.B., el objetivo de RR.HH. es que las personas estén motivadas y capacitadas, lo cual reduce errores en procesos críticos como la recepción de mercancía y el control de calidad."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 8 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">08</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">En una cadena de suministro, ¿qué es la "Logística Inversa"?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Devolución de productos
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Rocha explica que la logística inversa gestiona el retorno de productos desde el cliente o hacia el proveedor, ya sea por defectos de calidad o por fin de vida útil de los productos de aseo."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 9 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">09</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Qué indica una rotación de inventarios alta?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Gestión eficiente de ventas
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Una rotación alta significa que la mercancía sale rápido de bodega. Según Rocha, esto es ideal porque minimiza costos de mantenimiento y el riesgo de que los productos de aseo se vuelvan obsoletos."
+                </p>
+            </div>
+        </section>
+
+        <!-- Pregunta 10 -->
+        <section class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 question-card">
+            <div class="flex items-center gap-4 mb-6">
+                <span class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black text-xl">10</span>
+                <h3 class="text-xl font-bold text-slate-900 leading-tight">¿Qué documento legal rige las relaciones laborales en Colombia?</h3>
+            </div>
+            <div class="answer-badge text-white px-4 py-2 rounded-xl text-sm font-bold inline-block mb-6 shadow-sm">
+                Respuesta: Código Sustantivo del Trabajo
+            </div>
+            <div class="justification-box p-6 rounded-2xl">
+                <h4 class="text-blue-700 font-bold text-xs uppercase tracking-tighter mb-2">Justificación Técnica:</h4>
+                <p class="text-slate-700 leading-relaxed italic">
+                    "Es la base legal que protege tanto a la empresa como al empleado. En el nuevo departamento de compras de I.B., todas las nuevas contrataciones y perfiles deben alinearse con esta normativa."
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-500 py-12 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-sm">Reporte de Auditoría Técnica - Empresa I.B. | Modelo Rocha</p>
+        </div>
+    </footer>
+
+</body>
+</html>
